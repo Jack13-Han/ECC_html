@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    border: none;
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.tag{
+    text-align: center;
+}
+
+.tag a{
+    list-style: none !important;
+}
+
+a:active{
+    text-decoration: none;
+    color: #9999ff;
+}
+
+a:visited{
+    color: #ff7f7f;
+}
+
+a:hover{
+    color: #ff0000;
+}
+
+h1{
+    padding: 5px;
+}
+
+h3{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+
+header{
+    padding: 0 5%;
+    background-color: #f0ffba;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky; */
+    margin-bottom: 20px;
+    top: 0px;
+}
+
+
+.nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+}
+
+.nav-menu li{
+    margin: 0px 10px;
+}
+
+
+form{
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+form h2{
+    border-bottom: 1px solid #ff0000;
+}
+
+form div{
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    font-size: 1.1em;
+    border: 1px solid #000;
+    border-radius: 10px;
+
+}
+
+#checkDM{
+    width: 1em;
+    font-size: 1em;
+}
+
+#submit{
+    width: 100%;
+    height: 2em;
+    font-size: 1.3em;
+    background-color:aqua ;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#submit:hover{
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+.scroll-top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 100;
+    
+}
+footer{
+     background-color: #f0ffba;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center
+}
+
+.sns-icons{
+    width: 100%;
+
+}
+
+.sns-icons img{
+    margin: 20px;
+    vertical-align: middle;
+}

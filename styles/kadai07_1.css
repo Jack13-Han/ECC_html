@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #7ac;
+    background-image: url(../images/kadai07_bkline.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+
+h1{
+    color: #ccf;
+   padding-bottom: 10px;
+    font-size: 1.4em;
+
+}
+
+h2 , h3{
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #c30;
+
+}
+p{
+    line-height: 1.3em;
+}
+
+main{
+    background-image: url(../images/kadai07_standards.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+}
+#content_top{
+    text-indent: 1em;
+    padding: 10px  0px 10px 5px;
+    
+}
+
+.border{
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+

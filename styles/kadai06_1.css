@@ -1,0 +1,33 @@
+#title{
+    color: #00baff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    letter-spacing: 0.3em;
+    text-align: center;
+    
+}
+.sub-title{
+    color: #2bc;
+    font-size: 18px;
+}
+
+p{
+    line-height:1.5em;
+    text-indent: 1em;
+}
+
+em{
+    color: #22f;
+    font-weight: bolder;
+}
+.keyword{
+    color: #f2b;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+#copyright{
+    font-size: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #f0ffba;
+    background-image: url(../images/ECCPizza_back.jpg);
+    background-position: left top;
+}
+
+header{
+    width: 80%;
+    margin: 10px auto 10px auto;
+
+}
+
+main{
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+
+#mainVisual{
+    margin: 20px 0px 20px 0px;
+}
+#mainVisual img{
+    width: 100%;
+}
+
+.pasta{
+    position: relative;
+    z-index: 1;
+    width: 320px;
+    margin: 45px 0px 45px 0px;
+}
+
+.pasta p{
+    font-size: 0.8em;
+    color: black;
+    text-align: center;
+
+}
+
+.image {
+    color: #fff;
+    padding: 3px;
+    border: 1px solid #7d7760;
+}
+
+.item{
+    text-align: center;
+    padding: 10px;
+}
+
+.icon{
+    position: absolute;
+    left: -30px;
+    top: -30px;
+    z-index: 10;
+}
+
+.icon2{
+    position: absolute;
+    left: -30px;
+    top: 250px;
+    z-index: 10;
+}
+.icon3{
+    position: absolute;
+    left: -30px;
+    top: 550px;
+    z-index: 10;
+}
+
+
+.scroll-top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 100;
+
+}
+
+footer{
+    font-size: 0.8em;
+    color: black;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-top: 1px dotted #666;
+    z-index: 200;
+}

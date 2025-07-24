@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="6">
+        <caption>商品一覧</caption>
+        <tr>
+            <th colspan="">商品名</th>
+            <th>価格</th>
+        </tr>
+        <tr>
+            <td>マルゲリータ</td>
+            <td>1,000円</td>
+        </tr>
+        <tr>
+            <td>ペパロニ</td>
+            <td>1,200円</td>
+        </tr>
+        
+    </table>
+
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://www.google.com/maps/@34.7058695,135.5029312,871m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"></script>
+</body>
+</html>

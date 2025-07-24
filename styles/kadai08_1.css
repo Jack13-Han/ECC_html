@@ -1,0 +1,54 @@
+body{
+    color: #FFF;
+    background-image: url(../images/kadai08_back.jpg);
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+
+h1{
+    color: #ccf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+main{
+    position: relative;
+    width: 600px;
+    margin: 0px auto 0px auto;
+
+}
+main p{
+    position: absolute;
+}
+
+.text{
+    top: 260px;
+    width: 600px;
+    height: 5em;
+    overflow: auto;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+#photo1{
+    top: 50px;
+    left: 20px;
+    z-index: 1;
+
+}
+#photo2{
+    top: 120px;
+    left: 120px;
+    z-index: 3;
+}
+#photo3{
+    top: 50px;
+    left: 220px;
+    z-index: 2;
+}
+
+#photo4{
+    top: 120px;
+    left: 320px;
+    z-index: 4;
+}

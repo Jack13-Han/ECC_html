@@ -1,0 +1,31 @@
+body{
+    background-color: #f0ffba;
+    background-image: url(../images/ECCPizza_back.jpg);
+    background-position: left top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    padding: 20px;
+}
+.title{
+    color: #3f200e;
+    font-size: 20px;
+    border-bottom: 3px solid  #8f7517;
+}
+
+.item{
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border: 1px dotted #453933;
+}
+.item_title {
+    background-color: #281105;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.3em;
+}
+.item_price {
+    padding: 1em;
+}
+footer{
+    text-align: center;
+}
